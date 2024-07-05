@@ -3,7 +3,6 @@ import numpy as np
 import re
 import pandas as pd
 import nltk
-import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 
