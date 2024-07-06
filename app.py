@@ -77,7 +77,7 @@ if 'news_df' in locals():
 
     if input_text:
         pred = prediction(input_text)
-        if pred == 1:
+        if pred == 0:
             st.write('The News is Fake')
         else:
             st.write('The News Is Real')
